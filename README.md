@@ -1,4 +1,4 @@
-Hi, I'm Vedant
+Hi, I'm Vedant.
 I'm a Computer Engineering student at Georgia Tech interested in embedded systems, digital hardware, signal processing, and machine learning.
 Featured Projects
 DriveSense
