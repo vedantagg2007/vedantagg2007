@@ -1,53 +1,48 @@
-# Hi, I'm Vedant 👋
+# Hi, I'm Vedant
 
-I'm a **Computer Engineering student at Georgia Tech** interested in building systems at the intersection of **hardware, software, signal processing, and machine learning**.
+I'm a Computer Engineering student at Georgia Tech interested in embedded systems, digital hardware, signal processing, and machine learning.
 
-My work includes embedded systems, digital hardware, sensor-based machine learning, audio classification, and computer architecture.
+A lot of my projects involve taking data from real systems, processing it, and then building software or hardware around it.
 
-## Featured Projects
+## Projects
 
-### 🚗 DriveSense
-**Machine learning system for road type and road condition classification using vehicle IMU data**
+### DriveSense
+A machine learning system for classifying road type and road condition using IMU data collected from a vehicle.
 
-- Developed signal-processing and feature-extraction pipelines using **FFT, wavelet transforms, and statistical features**
-- Trained machine learning models to classify road type and road condition from sensor data
-- Achieved approximately **92% accuracy** on road-type classification and **90% accuracy** on road-condition classification
-- Collected and processed high-frequency sensor data using a **Raspberry Pi, IMU, and GPS**
+I built signal processing and feature extraction pipelines using FFTs, wavelets, and statistical features, then trained models for road type and road condition classification. The final models reached about 92% accuracy for road type and 90% for road condition.
 
-**Technologies:** Python, NumPy, SciPy, scikit-learn, Raspberry Pi
+Python, NumPy, SciPy, scikit-learn
 
-### 🔊 Environmental Audio Classification
-**CNN-based classifier for identifying jackhammer, siren, and chainsaw audio**
+### Environmental Audio Classification
+A CNN-based audio classifier for distinguishing between jackhammers, sirens, and chainsaws.
 
-- Processed **10-second, 16 kHz** environmental audio recordings
-- Compared **raw waveform, DCT, STFT, and log-mel spectrogram** representations
-- Built and evaluated convolutional neural network models using **PyTorch**
-- Achieved **80%+ test accuracy** using time-frequency representations
-- Explored crop-based classification and feature representations for improving model performance
+I worked with 10-second, 16 kHz recordings and compared several ways of representing the audio, including raw waveforms, DCT features, STFT spectrograms, and log-mel spectrograms. I trained the models in PyTorch and reached over 80% test accuracy with spectrogram-based inputs.
 
-**Technologies:** Python, PyTorch, NumPy, SciPy, librosa
+Python, PyTorch, librosa, NumPy, SciPy
 
-### ⚙️ Digital Hardware & Computer Architecture
-**Digital design projects involving RTL development, processors, and embedded systems**
+### AI Assistant
+A Python-based assistant project that combines automation, browser interaction, and language-model APIs.
 
-- Developing digital logic and hardware designs using **Verilog/SystemVerilog**
-- Worked with processor architecture concepts including instruction execution, memory interfaces, and control logic
-- Building experience with embedded firmware, digital electronics, and hardware/software integration
+I built the project to experiment with connecting an AI model to real actions instead of only generating text. It includes browser automation and supporting Python scripts for handling different parts of the assistant workflow.
 
-**Technologies:** Verilog, SystemVerilog, C/C++, Git
+Python, Selenium, APIs, ChromeDriver
 
-## Technical Interests
+### Digital Hardware
+I'm also working on projects involving digital logic and computer architecture, including processor design, memory interfaces, and control logic using Verilog/SystemVerilog.
 
-**Embedded Systems** • **Digital Hardware** • **Computer Architecture** • **Signal Processing** • **Machine Learning**
+Verilog, SystemVerilog, C/C++
 
-## Technologies
+### ZenPath
+An Android application I built using Java and Kotlin, focused on application logic and a clean user experience.
 
-**Languages:** C/C++, Python, Java, Kotlin, Verilog/SystemVerilog  
-**ML & Scientific Computing:** PyTorch, NumPy, SciPy, scikit-learn, librosa  
-**Hardware & Tools:** Raspberry Pi, Git, GitHub
+Java, Kotlin, Android
 
-## Currently
+---
 
-🎓 Studying **Computer Engineering at Georgia Tech**  
-🔧 Building projects across embedded systems, digital design, and machine learning  
-📡 Exploring signal processing and intelligent hardware systems
+I'm currently most interested in:
+
+Embedded systems • Digital hardware • Computer architecture • Signal processing • Machine learning
+
+Languages and tools I use include:
+
+C/C++ • Python • Java • Kotlin • Verilog/SystemVerilog • PyTorch • NumPy • SciPy • scikit-learn • Git
